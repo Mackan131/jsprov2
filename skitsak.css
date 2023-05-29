@@ -1,0 +1,76 @@
+#header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vw;
+}
+
+#vibes {
+    display: none;
+    font-size: 2vw;
+}
+
+#time {
+    display: none;
+    font-size: 1.25vw;
+}
+
+#image {
+    width: 15%;
+}
+
+#button_alignment {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#button_background {
+    background-color: red;
+    width: 44vw;
+    height: 22vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: lawngreen;
+    width: 7vw;
+    height: 4.5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+    flex-wrap: wrap;
+    border: none;
+    color: gray;
+    font-size: 1.5vw;
+    transition: 0.1s;
+}
+
+button:hover {
+    background-color: darkgreen;
+    transition: 0.5s;
+    font-size: 1.75vw;
+}
+
+#thanks_alignment {
+    display: flex;
+    justify-content: center;
+}
+
+#thanks {
+    color: goldenrod;
+    font-size: 1.5vw;
+}
